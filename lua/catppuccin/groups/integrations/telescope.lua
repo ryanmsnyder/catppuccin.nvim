@@ -38,7 +38,6 @@ function M.get()
 			TelescopeSelection = {
 				fg = O.transparent_background and C.flamingo or C.text,
 				bg = O.transparent_background and C.none or C.surface0,
-				style = { "bold" },
 			},
 			TelescopeSelectionCaret = { fg = C.flamingo },
 		}
@@ -51,7 +50,6 @@ function M.get()
 		TelescopeSelection = {
 			fg = O.transparent_background and C.flamingo or C.text,
 			bg = O.transparent_background and C.none or C.surface0,
-			style = { "bold" },
 		},
 		TelescopeMatching = { fg = C.blue },
 	}
